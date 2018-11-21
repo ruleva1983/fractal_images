@@ -8,7 +8,8 @@ set(CXX_FLAGS "-Wall")
 set(CMAKE_CXX_FLAGS, "${CXX_FLAGS}")
 
 set(sources main.cpp
-	src/Bitmap.cpp)
+	src/Bitmap.cpp
+	src/Mandelbrot.cpp)
 
 include_directories(include)
 
